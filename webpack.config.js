@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './deep.js',
+  entry: './classification.js',
   output: {
     path: path.resolve(__dirname, 'dist/js'),
-    filename: 'bundle2.js'
+    filename: 'bundle3.js'
   },
   devtool: 'source-map',
   mode: 'development'
